@@ -41,8 +41,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "test",
-			"table": "EMPLOYEECSV"
+			"schema": "",
+			"table": ""
 		}
 	}
 }
