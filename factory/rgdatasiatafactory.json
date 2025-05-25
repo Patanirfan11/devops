@@ -1,0 +1,9 @@
+{
+	"name": "rgdatasiatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "776e16d7-eaea-447c-a9f4-a2d3e21410c7",
+		"tenantId": "d9638a09-e66c-412d-82e2-629e83b1062f"
+	}
+}
