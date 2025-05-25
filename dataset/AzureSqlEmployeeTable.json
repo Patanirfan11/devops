@@ -1,0 +1,48 @@
+{
+	"name": "AzureSqlEmployeeTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EmployeeID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			},
+			{
+				"name": "LastName",
+				"type": "varchar"
+			},
+			{
+				"name": "BirthDate",
+				"type": "date"
+			},
+			{
+				"name": "HireDate",
+				"type": "date"
+			},
+			{
+				"name": "Salary",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "city",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "test",
+			"table": "EMPLOYEECSV"
+		}
+	}
+}
